@@ -1,0 +1,107 @@
+/* Reset and scoped base styles */
+.login-page * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Full page layout */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff; /* clean white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login/Signup card box */
+.login-box {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+/* Title */
+.login-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #0E4BF1; /* primary blue */
+}
+
+/* Subtitle */
+.login-box .subtitle {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.login-box input:focus {
+  border-color: #0E4BF1;
+  box-shadow: 0 0 0 3px rgba(14, 75, 241, 0.15);
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0E4BF1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0c3ec6; /* slightly darker blue */
+}
+
+/* Signup/Signin link */
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-link a {
+  color: #0E4BF1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-box {
+    padding: 30px 20px;
+  }
+
+  .login-box h2 {
+    font-size: 24px;
+  }
+}

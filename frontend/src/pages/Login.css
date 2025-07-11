@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qS1289n56ZLX24P_mBwRZv2LwVZemELQRg&s') no-repeat center center/cover;
+  height: 100vh;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+.login-container {
+  background: rgba(4, 82, 240, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  width: 300px;
+  text-align: center;
+}
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-container button:hover {
+  background: #0056b3;
+}
+.signup-btn {
+  color: #fff;
+  font-size: 14px;
+}
+.signup-btn a {
+  color: #ff0;
+  text-decoration: underline;
+}
